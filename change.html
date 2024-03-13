@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    
+    <script>
+        let coin_500; 
+        let coin_100;
+        let input = Number(prompt("금액을 입력하세요(원)"));
+        coin_500 = Math.floor(input/500)
+        coin_100 = (input-(coin_500*500))/100;
+
+        alert(`입력받은 금액은 500원짜리 ${coin_500}개와 100원짜리 ${coin_100}개로 교환이 가능하다.`)
+        
+    </script>
+
+
+</html>
