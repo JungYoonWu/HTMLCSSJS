@@ -1,0 +1,35 @@
+/* *{
+    color: orange;
+}*/
+
+h1, h3 {
+    color:rgb(162, 162, 185);
+    background-color: lightblue;
+    
+}
+
+.description {
+    color:brown;
+    font-family: "Nanum Pen Script", cursive;
+}
+.center{
+    text-align: center;
+    letter-spacing: 1.3em;
+}
+#degree {
+    color:red;
+    background-color: yellow;
+}
+
+h1 {
+    color: blueviolet;
+}
+p{
+    color:orange;
+}
+
+.a {font-size : 15px;}
+.b {font-size : 20px;}
+.c {font-size : 30px;}
+
+.parent{font-size: 30px;}
