@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const person = {};
+    document.write(person);
+    document.write(`<br>`)
+    person.name = {
+        firstName: "GilDong",
+        lastName: "Hong"
+    };
+    person.likes = ["apple", "samsung"];
+    person.printHello = function(){
+        return "hello";
+    };
+    console.log(person);
+    document.write(person.name.firstName);
+    document.write(`<br>`)
+    document.write(person.name.lastName);
+</script>
+</html>
